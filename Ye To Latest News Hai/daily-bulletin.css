@@ -1,0 +1,14 @@
+div .card{
+    width: 21rem; 
+    display:inline-block; 
+    margin: 40px 33px 60px 0;
+    padding: 0 0 10px 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+}
+
+img{
+    width: 600px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

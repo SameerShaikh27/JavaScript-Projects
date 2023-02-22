@@ -1,0 +1,3 @@
+password to email = newsapi24/7
+Api key = 5175d32d3d30416798d5060c6c644457
+url = `https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=5175d32d3d30416798d5060c6c644457`

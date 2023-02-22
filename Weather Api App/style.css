@@ -1,0 +1,88 @@
+/* Importing fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans:wght@400;500;600&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    font-family: 'Noto Sans', sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?nature,water');
+    font-size: 110%;
+}
+
+.weatherCard {
+    background: #00071cd9;
+    color: #fff;
+    padding: 2em;
+    border-radius: 30px;
+    max-width: 600px;
+    width: 100%;
+    margin: 1em;
+}
+
+.searchCity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00061ad9;
+    padding: 8px 12px 8px 20px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 6px;
+    border: none;
+    height: 2.4em;
+    width: 2.4em;
+    outline: none;
+    background: #6c6c6c3b;
+    color: #fff;
+    transition: 0.2s all ease-in-out;
+}
+
+button:hover {
+    background: #7c7c7c7a;
+}
+
+button i {
+    font-size: 20px;
+}
+
+.searchBar {
+    border: none;
+    outline: none;
+    padding: 0.3em 0.8em;
+    border-radius: 6px;
+    background: #67676736;
+    color: #fff;
+    font-family: inherit;
+    font-size: 110%;
+    width: calc(100% - 50px);
+}
+
+h1 .temp {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+h2 .city {
+    margin: 0.3em 0 0.7em 0;
+    font-size: 26px;
+    margin-bottom: 10px;
+    letter-spacing: 0.6px;
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left: 8px;
+}
+
+.fBox {
+    display: flex;
+    align-items: center;
+}

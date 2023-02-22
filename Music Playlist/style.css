@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;500;600;700&family=El+Messiri:wght@400;500;600;700&family=Questrial&family=Source+Code+Pro:wght@500&display=swap');
+
+body {
+    background-image: url("/images/music-bg2.jpg");
+}
+
+.container-fluid a img {
+    width: 50px;
+    height: auto;
+}
+
+.nav-item a {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.musicContainer {
+    /* min-height: 73vh; */
+    height: 66.6vh;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px 30px 0;
+    background-image: url("/images/music-bg1.jpg");
+    overflow-y: scroll;
+}
+
+.title {
+    font-family: 'El Messiri', sans-serif;
+}
+
+.bottomPlayer {
+    background-color: #1a1e21;
+    position: sticky;
+    height: 14.5vh;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#musicTime {
+    width: 80vw;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.icons i {
+    color: rgb(223, 223, 223);
+    font-size: 34px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.bottomPlayer .icons i:hover {
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+
+.songItem span .pNumb {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Questrial', sans-serif;
+    margin-right: 20px;
+}
+
+.songItem span i {
+    font-size: 24px;
+    margin-right: 20px;
+    position: relative;
+    top: 3px;
+}
+
+.songItem span h2 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Questrial', sans-serif;
+    margin-right: 40px;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+.songItem span p {
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.songInfo {
+    position: absolute;
+    left: 2vw;
+    top: 3vh;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.songInfo img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.playlist {
+    position: relative;
+    left: 450px;
+}
+
+.songPlay {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1300px) {
+    .playlist {
+        position: relative;
+        left: 0px;
+    }
+
+    .musicContainer {
+        background-image: url("/images/music-bg1.jpg");
+        background-position: right bottom;
+    }
+    
+    .songItem span .pNumb {
+        font-size: 16px;
+        font-weight: 600;
+        margin-right: 10px;
+    }
+    
+    .songItem span i {
+        font-size: 23px;
+        margin-right: 10px;
+        position: relative;
+        top: 4px;
+    }
+    
+    .songItem span h2 {
+        font-size: 16px;
+    }
+    
+    .songItem span p {
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #masterSongName{
+        position: relative;
+        top: -10px;
+        left: 6vw;
+    }
+
+    .bottomPlayer {
+        height: 20vh;
+    }
+
+    #musicTime {
+        margin-bottom: -30px;
+    }
+}
